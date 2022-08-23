@@ -6,17 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Chart - MusicStats</title>
   <!-- Materialize Css-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css" integrity="sha512-3EJR9sB4iaYgCrAwCZORkxD926jIG+AK+6xe8UGUf7DjQG+tujoYW4mbRm+nJ5D8xCobkMP/tiAWmQI0ahS3Bw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css" integrity="sha512-ACw8/VHVZ1aeofsHiL0S3iKLygImenGeQ7DcjiSdSfeqWHGiezgmm8RtGtvAomyD70CBhzqho3/BbgUFtRas8A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"
+    integrity="sha512-3EJR9sB4iaYgCrAwCZORkxD926jIG+AK+6xe8UGUf7DjQG+tujoYW4mbRm+nJ5D8xCobkMP/tiAWmQI0ahS3Bw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css"
+    integrity="sha512-ACw8/VHVZ1aeofsHiL0S3iKLygImenGeQ7DcjiSdSfeqWHGiezgmm8RtGtvAomyD70CBhzqho3/BbgUFtRas8A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Personal Css-->
   <link type="text/css" rel="stylesheet" href="css/mystyle.css" media="screen,projection">
   <!-- jQuery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js" integrity="sha512-5SUkiwmm+0AiJEaCiS5nu/ZKPodeuInbQ7CiSrSnUHe11dJpQ8o4J1DU/rw4gxk/O+WBpGYAZbb8e17CDEoESw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"
+    integrity="sha512-5SUkiwmm+0AiJEaCiS5nu/ZKPodeuInbQ7CiSrSnUHe11dJpQ8o4J1DU/rw4gxk/O+WBpGYAZbb8e17CDEoESw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- Materialize Javascript-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js" integrity="sha512-9913Cd4sl7mfl9B7Pq0V+lgEMtJ/exBNmFToydOzkrQDFdQkjRRNGHn31crD9zFqJxWhcJwSvWNkz/a/7Qyaxw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js" integrity="sha512-2EEqmCZGkBCljHb3ncO9SK5Qgb4uDyVfLY6AfjuDXuNquqpekVTF5Df1+HvC/K8k6Be5OUILWjI7/tTj0MR0Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"
+    integrity="sha512-9913Cd4sl7mfl9B7Pq0V+lgEMtJ/exBNmFToydOzkrQDFdQkjRRNGHn31crD9zFqJxWhcJwSvWNkz/a/7Qyaxw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"
+    integrity="sha512-2EEqmCZGkBCljHb3ncO9SK5Qgb4uDyVfLY6AfjuDXuNquqpekVTF5Df1+HvC/K8k6Be5OUILWjI7/tTj0MR0Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- ChartJs Javascript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js" integrity="sha512-mMXw67ocU3c3KLW9ppZkGRFL0pC7mQpe1RI90E/vZXKUYGkLee2CItYbEW8BctM5QPSTBjD5b97sunBTHhDMRw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"
+    integrity="sha512-mMXw67ocU3c3KLW9ppZkGRFL0pC7mQpe1RI90E/vZXKUYGkLee2CItYbEW8BctM5QPSTBjD5b97sunBTHhDMRw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- Personal Javascript -->
   <script src="js/chart_script.js" type="text/javascript"></script>
   <script>
@@ -132,7 +144,8 @@
             <div class="collapsible-header">
               <i class="material-icons color-blue">
                 <img src="images/keytone.png">
-              </i>KeyTone</div>
+              </i>KeyTone
+            </div>
             <div class="collapsible-body">
               <ul class="collection">
                 <li class="collection-item">
@@ -224,245 +237,249 @@
               </ul>
             </div>
           </li>
-          </ul>
-          <ul id="file-collection" class="collapsible center hidden-content">
-            <li>
-              <div class="collapsible-header">
-                <i class="material-icons left">
-                  <img src="images/white.png">
-                </i>File action
-              </div>
-            </li>
-            <li>
-              <div class="collapsible-header">
-                <i class="material-icons left">
-                  <img src="images/track.png">
-                </i>Track
-              </div>
-              <div class="collapsible-body">
-                <ul class="collection">
-                  <li class="collection-item">
-                    Number of track with the same instrument of selected file
-                    <a href="#!" class="secondary-content">
-                      <i class="material-icons color-blue" onclick="getTrackInstrumentFile()">send</i>
-                    </a>
-                  </li>
-                  <li class="collection-item">
-                    Number of track and relative instrument of selected file
-                    <a href="#!" class="secondary-content">
-                      <i class="material-icons color-blue" onclick="getInstrumentsFile()">send</i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <div class="collapsible-header">
-                <i class="material-icons left">
-                  <img src="images/bpm.png">
-                </i>Bpm
-              </div>
-              <div class="collapsible-body">
-                <ul class="collection">
-                  <li class="collection-item">
-                    Line graph about time and bpm variation
-                    <a href="#!" class="secondary-content">
-                      <i class="material-icons color-blue" onclick="getBpmFile()">send</i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <div class="collapsible-header">
-                <i class="material-icons color-blue">
-                  <img src="images/keytone.png">
-                </i>KeyTone
-              </div>
-              <div class="collapsible-body">
-                <ul class="collection">
-                  <li class="collection-item">
-                    Table with all key and tone user for file
-                    <a href="#!" class="secondary-content">
-                      <i class="material-icons color-blue" onclick="getKeytoneFile()">send</i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
+        </ul>
+        <ul id="file-collection" class="collapsible center hidden-content">
+          <li>
+            <div class="collapsible-header">
+              <i class="material-icons left">
+                <img src="images/white.png">
+              </i>File action
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <i class="material-icons left">
+                <img src="images/track.png">
+              </i>Track
+            </div>
+            <div class="collapsible-body">
+              <ul class="collection">
+                <li class="collection-item">
+                  Number of track with the same instrument of selected file
+                  <a href="#!" class="secondary-content">
+                    <i class="material-icons color-blue" onclick="getTrackInstrumentFile()">send</i>
+                  </a>
+                </li>
+                <li class="collection-item">
+                  Number of track and relative instrument of selected file
+                  <a href="#!" class="secondary-content">
+                    <i class="material-icons color-blue" onclick="getInstrumentsFile()">send</i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <i class="material-icons left">
+                <img src="images/bpm.png">
+              </i>Bpm
+            </div>
+            <div class="collapsible-body">
+              <ul class="collection">
+                <li class="collection-item">
+                  Line graph about time and bpm variation
+                  <a href="#!" class="secondary-content">
+                    <i class="material-icons color-blue" onclick="getBpmFile()">send</i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <i class="material-icons color-blue">
+                <img src="images/keytone.png">
+              </i>KeyTone
+            </div>
+            <div class="collapsible-body">
+              <ul class="collection">
+                <li class="collection-item">
+                  Table with all key and tone user for file
+                  <a href="#!" class="secondary-content">
+                    <i class="material-icons color-blue" onclick="getKeytoneFile()">send</i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
 
-            <li>
-              <div class="collapsible-header">
-                <i class="material-icons color-blue">
-                  <img src="images/midi.png">
-                </i>Midi
-              </div>
-              <div class="collapsible-body">
-                <ul class="collection">
-                  <li class="collection-item">
-                    Number of tracks for file
+          <li>
+            <div class="collapsible-header">
+              <i class="material-icons color-blue">
+                <img src="images/midi.png">
+              </i>Midi
+            </div>
+            <div class="collapsible-body">
+              <ul class="collection">
+                <li class="collection-item">
+                  Number of tracks for file
+                  <a href="#!" class="secondary-content">
+                    <i class="material-icons color-blue" onclick="getMidiTracksFile()">send</i>
+                  </a>
+                </li>
+                <li class="collection-item">
+                  Number of statistic and non statistic row for file
+                  <a href="#!" class="secondary-content">
+                    <i class="material-icons color-blue" onclick="getMidiFile()">send</i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <i class="material-icons">
+                <img src="images/note.png">
+              </i>Note
+            </div>
+            <div class="collapsible-body">
+              <ul class="collection">
+                <li class="collection-item">
+                  Number of notes by type for file
+                  <a href="#!" class="secondary-content">
+                    <i class="material-icons color-blue" onclick="getNoteGroupFile()">send</i>
+                  </a>
+                </li>
+                <li class="collection-item">
+                  Number of notes by type for file and track
+                  <a href="#!" class="secondary-content">
+                    <i class="material-icons color-blue" onclick="getNoteFile()">send</i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <i class="material-icons">
+                <img src="images/tempo.png">
+              </i>Tempo
+            </div>
+            <div class="collapsible-body">
+              <ul class="collection">
+                <li class="collection-item">
+                  Type of tempo used in file
+                  <a href="#!" class="secondary-content">
+                    <i class="material-icons color-blue" onclick="getTempoFile()">send</i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <i class="material-icons left">
+                <img src="images/title.png">
+              </i>Title
+            </div>
+            <div class="collapsible-body">
+              <ul class="collection">
+                <li class="collection-item">
+                  Tutti i titoli del midi
+                  <a href="#!" class="secondary-content">
+                    <i class="material-icons color-blue" onclick="getTitleFile()">send</i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <ul id="midi-collection" class="collapsible center hidden-content">
+          <li>
+            <div class="collapsible-header">
+              <i class="material-icons left">
+                <img src="images/white.png">
+              </i>Midi action
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <i class="material-icons">
+                <img src="images/instrument.png">
+              </i>Instrument
+            </div>
+            <div class="collapsible-body">
+              <ul class="collection">
+                <li class="collection-item">
+                  Show all instrument with relative instrument family
+                  <a href="#!" class="secondary-content">
+                    <i class="material-icons color-blue" onclick="getInstrument()">send</i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <i class="material-icons left">
+                <img src="images/notes.png">
+              </i>Notes
+            </div>
+            <div class="collapsible-body">
+              <ul class="collection">
+                <li class="collection-item">
+                  Show type of note
+                  <a href="#!" class="secondary-content">
+                    <i class="material-icons color-blue" onclick="getNotes()">send</i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <i class="material-icons left">
+                <img src="images/mode.png">
+              </i>Mode
+            </div>
+            <div class="collapsible-body">
+              <ul class="collection">
+                <li class="collection-item">
+                  Show type of mode
+                  <a href="#!" class="secondary-content">
+                    <i class="material-icons color-blue" onclick="getMode()">send</i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <i class="material-icons left">
+                <img src="images/tone.png">
+              </i>Tone
+            </div>
+            <div class="collapsible-body">
+              <ul class="collection">
+                <li class="collection-item">
+                  Show type of Tone
+                  <a href="#!" class="secondary-content">
+                    <i class="material-icons color-blue" onclick="getTone()">send</i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <i class="material-icons left">
+                <img src="images/family.png">
+              </i>Instruments Family
+            </div>
+            <div class="collapsible-body">
+              <ul class="collection">
+                <li class="collection-item">
+                  <div>Show type of instrument family
                     <a href="#!" class="secondary-content">
-                      <i class="material-icons color-blue" onclick="getMidiTracksFile()">send</i>
+                      <i class="material-icons color-blue" onclick="getIfamily()">send</i>
                     </a>
-                  </li>
-                  <li class="collection-item">
-                    Number of statistic and non statistic row for file
-                    <a href="#!" class="secondary-content">
-                      <i class="material-icons color-blue" onclick="getMidiFile()">send</i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <div class="collapsible-header">
-                <i class="material-icons">
-                  <img src="images/note.png">
-                </i>Note</div>
-              <div class="collapsible-body">
-                <ul class="collection">
-                  <li class="collection-item">
-                    Number of notes by type for file
-                    <a href="#!" class="secondary-content">
-                      <i class="material-icons color-blue" onclick="getNoteGroupFile()">send</i>
-                    </a>
-                  </li>
-                  <li class="collection-item">
-                    Number of notes by type for file and track
-                    <a href="#!" class="secondary-content">
-                      <i class="material-icons color-blue" onclick="getNoteFile()">send</i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <div class="collapsible-header">
-                <i class="material-icons">
-                  <img src="images/tempo.png">
-                </i>Tempo</div>
-              <div class="collapsible-body">
-                <ul class="collection">
-                  <li class="collection-item">
-                    Type of tempo used in file
-                    <a href="#!" class="secondary-content">
-                      <i class="material-icons color-blue" onclick="getTempoFile()">send</i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <div class="collapsible-header">
-                <i class="material-icons left">
-                  <img src="images/title.png">
-                </i>Title</div>
-              <div class="collapsible-body">
-                <ul class="collection">
-                  <li class="collection-item">
-                    Tutti i titoli del midi
-                    <a href="#!" class="secondary-content">
-                      <i class="material-icons color-blue" onclick="getTitleFile()">send</i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-          <ul id="midi-collection" class="collapsible center hidden-content">
-            <li>
-              <div class="collapsible-header">
-                <i class="material-icons left">
-                  <img src="images/white.png">
-                </i>Midi action
-              </div>
-            </li>
-            <li>
-              <div class="collapsible-header">
-                <i class="material-icons">
-                  <img src="images/instrument.png">
-                </i>Instrument
-              </div>
-              <div class="collapsible-body">
-                <ul class="collection">
-                  <li class="collection-item">
-                    Show all instrument with relative instrument family
-                    <a href="#!" class="secondary-content">
-                      <i class="material-icons color-blue" onclick="getInstrument()">send</i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <div class="collapsible-header">
-                <i class="material-icons left">
-                  <img src="images/notes.png">
-                </i>Notes
-              </div>
-              <div class="collapsible-body">
-                <ul class="collection">
-                  <li class="collection-item">
-                    Show type of note
-                    <a href="#!" class="secondary-content">
-                      <i class="material-icons color-blue" onclick="getNotes()">send</i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <div class="collapsible-header">
-                <i class="material-icons left">
-                  <img src="images/mode.png">
-                </i>Mode
-              </div>
-              <div class="collapsible-body">
-                <ul class="collection">
-                  <li class="collection-item">
-                    Show type of mode
-                    <a href="#!" class="secondary-content">
-                      <i class="material-icons color-blue" onclick="getMode()">send</i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <div class="collapsible-header">
-                <i class="material-icons left">
-                  <img src="images/tone.png">
-                </i>Tone
-              </div>
-              <div class="collapsible-body">
-                <ul class="collection">
-                  <li class="collection-item">
-                    Show type of Tone
-                    <a href="#!" class="secondary-content">
-                      <i class="material-icons color-blue" onclick="getTone()">send</i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <div class="collapsible-header">
-                <i class="material-icons left">
-                  <img src="images/family.png">
-                </i>Instruments Family</div>
-              <div class="collapsible-body">
-                <ul class="collection">
-                  <li class="collection-item">
-                    <div>Show type of instrument family
-                      <a href="#!" class="secondary-content">
-                        <i class="material-icons color-blue" onclick="getIfamily()">send</i>
-                      </a>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
     <div id="select" class="container hidden-content"></div>
