@@ -23,4 +23,5 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
+      working-directory: ${{github.workspace}}/MusicStats/pom.xml
       run: mvn -B package --file pom.xml
